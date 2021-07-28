@@ -116,7 +116,7 @@ def button_pressed(event):
     if event == "a":
         createNewWindow("Anger Emotion Scale")
     elif event == "s":
-        createNewWindow("Sadness/Calmness Emotion Scale")
+        createNewWindow("Calmness Emotion Scale")
     elif event == "f":
         createNewWindow("Fear Emotion Scale")
     else:
@@ -136,7 +136,7 @@ button_02 = tk.Button(text="Fear",
                       button_pressed("f"))
 button_02.place(height=300, width=300, relx=0.5)
 
-button_03 = tk.Button(text="Sadness/Calmness",
+button_03 = tk.Button(text="Calmness",
                       highlightbackground="blue",
                       command=lambda:
                       button_pressed("s"))
